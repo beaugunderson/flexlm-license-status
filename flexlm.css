@@ -1,0 +1,42 @@
+body {
+   padding: 4em;
+}
+
+table {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   pdding: 2px;
+   cell-spacing: 0;
+   border-spacing: 0;
+   border-collapse: collapse;
+}
+
+thead {
+   border-bottom: 3px double black;
+}
+
+td, th {
+   vertical-align: bottom;
+}
+
+th {
+   font-weight: bold;
+   text-align: left;
+}
+
+h1 {
+   color: #ee2233;
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+}
+
+h2 {
+   margin-left: 1em;
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+}
+
+h2.none {
+   color: #ccc;
+}
