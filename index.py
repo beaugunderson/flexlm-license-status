@@ -34,7 +34,7 @@ def main():
         for feature in features:
             servers[server][feature] = get_licenses(server, feature)
 
-    template = Template(filename='flexlm.html', module_directory='cache')
+    template = Template(filename='flexlm.mako', module_directory='cache')
 
     print 'Content-Type: text/html'
     print
